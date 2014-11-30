@@ -9,7 +9,7 @@ images_dir = "images"
 javascripts_dir = "js"
 
 # You can select your preferred output style here (can be overridden via the command line):
-# output_style = :expanded or :nested or :compact or :compressed
+output_style = :compressed
 
 # To enable relative paths to assets via compass helper functions. Uncomment:
 # relative_assets = true
@@ -28,3 +28,4 @@ if Gem.loaded_specs["sass"].version >= Gem::Version.create('3.4')
   warn "You're using Sass 3.4 or higher to compile Foundation. This version causes CSS classes to output incorrectly, so we recommend using Sass 3.3 or 3.2."
   warn "To use the right version of Sass on this project, run \"bundle\" and then use \"bundle exec compass watch\" to compile Foundation."
 end
+disable_warnings = true;
